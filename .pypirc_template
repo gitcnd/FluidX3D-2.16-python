@@ -1,0 +1,18 @@
+# PyPI Configuration Template
+# Save this as ~/.pypirc (Linux/Mac) or %USERPROFILE%\.pypirc (Windows)
+
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = AuraFriday
+# password = <your-token-here>
+# or use: python -m twine upload dist/* --username AuraFriday --password <token>
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = AuraFriday
+# password = <your-token-here>
+

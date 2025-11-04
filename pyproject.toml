@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "pybind11>=2.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluidx3d"
+version = "2.16.3"
+description = "Real-time interactive Lattice Boltzmann CFD with full GPU acceleration and graphics"
+readme = "README_PYPI.md"
+requires-python = ">=3.11"
+license = {text = "GPLv3"}
+authors = [
+    {name = "Dr. Moritz Lehmann (original)"},
+    {name = "AuraFriday (Python bindings)"},
+]
+keywords = ["cfd", "lattice-boltzmann", "fluid-dynamics", "gpu", "opencl", "computational-physics", "simulation", "interactive"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: C++",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Microsoft :: Windows",
+]
+
+dependencies = [
+    "pybind11>=2.6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gitcnd/FluidX3D-2.16-python"
+Repository = "https://github.com/gitcnd/FluidX3D-2.16-python"
+"Bug Tracker" = "https://github.com/gitcnd/FluidX3D-2.16-python/issues"
+"Original FluidX3D" = "https://github.com/ProjectPhysX/FluidX3D"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
+]
+

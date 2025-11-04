@@ -1,0 +1,24 @@
+# Include C++ source files
+recursive-include src *.cpp *.hpp *.h
+
+# Include OpenCL libraries
+recursive-include src/OpenCL/include *
+recursive-include src/OpenCL/lib *.lib
+
+# Include documentation
+include README.md
+include LICENSE.md
+include DOCUMENTATION.md
+
+# Include example STL files (only small ones)
+include *.stl
+
+# Exclude build artifacts
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+prune build
+prune dist
+prune *.egg-info
+

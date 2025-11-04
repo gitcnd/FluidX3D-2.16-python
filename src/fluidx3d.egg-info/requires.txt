@@ -1,0 +1,6 @@
+pybind11>=2.6.0
+
+[dev]
+pytest>=6.0
+build>=0.10.0
+twine>=4.0.0
