@@ -75,7 +75,7 @@ config = fluidx3d.Config()
 config.parse_args([
     '--D3Q27', '--FP16S', '--SUBGRID',
     '--SRT', '--UPDATE_FIELDS', '--GRAPHICS',
-    '--EQUILIBRIUM_BOUNDARIES', '--window',
+    '--EQUILIBRIUM_BOUNDARIES',
     '-f', 'LZ_129_Hindenburg.stl',
     '-r', '15400',  # ~15GB VRAM
     '-u', '7',      # 7 m/s velocity

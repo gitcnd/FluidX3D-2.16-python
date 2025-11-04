@@ -1,6 +1,6 @@
 # octal file mode, owner, group, mtime, atime, spare1, spare2, filename	# https://github.com/gitcnd/git-meta.git v0.20250918
 # last:(1000:cnd,1000:cnd) Chris <cryptophoto@gmail.com> at 2025-11-05 02:04:16 +1000
-0777,cnd,cnd,2025-11-05 02:03:45.33538 +1000,2025-11-05 02:03:45.33538 +1000,,,README.md
+0777,cnd,cnd,2025-11-05 03:44:37.3212 +1000,2025-11-05 03:44:37.3212 +1000,,,README.md
 0777,cnd,cnd,2024-05-21 12:17:35.06273 +1000,2025-03-30 19:36:51.3457 +1000,,,.gitattributes
 0777,cnd,cnd,2024-05-21 12:17:35.06372 +1000,2025-03-30 19:36:51.3457 +1000,,,.gitignore
 0777,cnd,cnd,2025-11-05 02:00:29.51973 +1000,2025-11-05 02:00:29.51973 +1000,,,.pypirc_template
