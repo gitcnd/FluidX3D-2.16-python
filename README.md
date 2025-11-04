@@ -4,7 +4,7 @@
 
 This is a Python wrapper for [FluidX3D v2.16](https://github.com/ProjectPhysX/FluidX3D), the fastest and most memory efficient Lattice Boltzmann CFD software, capable of running simulations with up to 10 billion cells in VRAM.
 
-![FluidX3D Demo](https://raw.githubusercontent.com/ProjectPhysX/FluidX3D/master/img/fluidx3d.png)
+![FluidX3D Demo](FluidX3D-2.16-python.png)
 
 ## Features
 
